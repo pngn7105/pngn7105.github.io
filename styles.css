@@ -83,6 +83,13 @@ img, video {
 	border-radius: 10px;
 	text-decoration: none;
 	box-shadow: 0 4px 12px rgba(2,8,23,0.12);
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+/* Allow buttons in body to sit horizontally */
+body > .button {
+	float: left;
 }
 
 /* Responsive tweaks */
